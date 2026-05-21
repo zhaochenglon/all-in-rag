@@ -28,7 +28,7 @@ embeddings = HuggingFaceEmbeddings(
     encode_kwargs={'normalize_embeddings': True}
 )
   
-# 构建向量存储
+# 构建向量存储 测试分支
 vectorstore = InMemoryVectorStore(embeddings)
 vectorstore.add_documents(chunks)
 
